@@ -5,7 +5,7 @@
 . ./path.sh
 
 text=data/text
-lexicon=data/lexicon.txt
+lexicon=data/dict/lexicon.txt
 
 for f in "$text" "$lexicon"; do
   [ ! -f $x ] && echo "$0: No such file $f" && exit 1;
