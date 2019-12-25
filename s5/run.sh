@@ -19,11 +19,14 @@
 # 准备声学模型，放在exp/chain/tdnn中（根据不同模型，路径不同）
 # Phone Sets, questions, L compilation
 #根据发音字典，生成L.fst，过程文件保存在data/local/lang，生成文件保存在data/lang中
+dos2unix data/dict/lexicon.txt || exit 1;
+rm data/dict/lexiconp.txt || exit 1;
 utils/prepare_lang.sh --position-dependent-phones false data/dict \
     "<SPOKEN_NOISE>" data/local/lang data/lang || exit 1;
 
 # LM training
 #训练语言模型，生成data/local/lm/3gram-mincount/lm_unpruned.gz
+rm -r data/local/lm || exit 1;
 local/aishell_train_lms.sh || exit 1; 
 
 # G compilation, check LG composition 

@@ -160741,6 +160741,8 @@ HIJOVI h ai4 j iu1 uu ui4
 HIJOVI h ai4 zh ou1 uu ui4
 HIJOVI h ai4 z ou1 uu ui4
 HIJOVI h ai4 zh u1 uu ui4
+HIJOVI h ai4 zh ao1 uu ui4
+HIJOVI h ai4 z ao1 uu ui4
 HIJOVI h ei1 j iao1 uu ui5
 HIJOVI h ei4 j iao1 uu ui5
 HIJOVI h ai3 j iao1 uu ui5
@@ -160749,5 +160751,7 @@ HIJOVI h ai4 j iu1 uu ui5
 HIJOVI h ai4 zh ou1 uu ui5
 HIJOVI h ai4 z ou1 uu ui5
 HIJOVI h ai4 zh u1 uu ui5
+HIJOVI h ai4 zh ao1 uu ui5
+HIJOVI h ai4 z ao1 uu ui5
 HIJO h ai4 j iao1
 JOVI j iao1 uu ui1
